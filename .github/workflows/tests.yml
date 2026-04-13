@@ -16,7 +16,7 @@ on:
         default: '5'
         type: string
       clear_file:
-        description: 'Clear main.txt and sec.txt before running?'
+        description: 'Clear m1.txt and s1.txt before running?'
         required: true
         default: true
         type: boolean
