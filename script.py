@@ -13,8 +13,8 @@ import concurrent.futures
 REGISTRATIONS_COUNT = int(os.getenv("REG_COUNT", 1))
 THREADS = int(os.getenv("THREADS", 5))
 CLEAR_FILE = os.getenv("CLEAR_FILE", "false").lower() in ("true", "1", "yes")
-OUTPUT_FILE_BYPASS = "main.txt"
-OUTPUT_FILE_MAIN = "sec.txt"
+OUTPUT_FILE_BYPASS = "m1.txt"
+OUTPUT_FILE_MAIN = "s1.txt"
 
 # Target URLs
 login_url = "https://console.rscore.app/login"
